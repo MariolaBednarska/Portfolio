@@ -1,0 +1,82 @@
+:root {
+  --first-color: #353739;
+  --secondary-color: #e4f1fe;
+  --third-color: #8dc6ff;
+  --forth-color: #ffe9e3;
+  --font-familiy: 'Times New Roman', Times, serif;
+
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--first-color);
+  font-family: var(--font-familiy);
+}
+
+header {
+  background-color: var(--third-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--first-color);
+  background-color: var(--forth-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+main { 
+  display: flex;
+  color: var(--first-color);
+  background-color: var(--third-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+main .content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+}
+
+main .content p {
+  font-size: 20px;
+}
+
+.image img {
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--first-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--first-color);
+}
